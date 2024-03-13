@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@color/secondaryColor">
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question?"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:padding="16dp"
+        android:textColor="@color/textColorPrimary"/>
+
+    <Button
+        android:id="@+id/buttonAnswer1"
+        style="@style/QuizButtonStyle"
+        android:text="Answer 1"/>
+
+    <Button
+        android:id="@+id/buttonAnswer2"
+        style="@style/QuizButtonStyle"
+        android:text="Answer 2"/>
+
+    <Button
+        android:id="@+id/buttonAnswer3"
+        style="@style/QuizButtonStyle"
+        android:text="Answer 3"/>
+
+    <Button
+        android:id="@+id/buttonAnswer4"
+        style="@style/QuizButtonStyle"
+        android:text="Answer 4"/>
+
+    <TextView
+        android:id="@+id/textViewTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="01:00"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/textColorPrimary"/>
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score: 0"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/textColorPrimary"
+        />
+
+    <TextView
+        android:id="@+id/textViewCongrats"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Čestitamo!"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:background="#88000000" />
+
+</LinearLayout>

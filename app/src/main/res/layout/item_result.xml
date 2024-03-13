@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/item_background">
+
+    <TextView
+        android:id="@+id/textViewScore"
+        style="@style/ResultItemTextStyle"
+        android:text="Score"
+        android:textColor="@color/textColorPrimary"/>
+
+    <TextView
+        android:id="@+id/textViewDate"
+        style="@style/ResultItemTextStyle"
+        android:text="Date"
+        android:textColor="@color/textColorPrimary"/>
+</LinearLayout>

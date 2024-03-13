@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <Button
+        android:id="@+id/buttonStartQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_quiz"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/accentColor"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/buttonTopResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top 10 Results"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonPerfectScores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perfect Scores"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

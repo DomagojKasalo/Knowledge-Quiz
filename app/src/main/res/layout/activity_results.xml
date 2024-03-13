@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/secondaryColor">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewResults"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/buttonPlayAgain"
+        style="@style/ResultsButtonStyle"
+        android:text="@string/return_to_main_manu" />
+
+    <Button
+        android:id="@+id/buttonExit"
+        style="@style/ResultsButtonStyle"
+        android:text="@string/exit" />
+</LinearLayout>
